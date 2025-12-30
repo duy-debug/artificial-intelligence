@@ -1,0 +1,11 @@
+a = input("Nhap vao a: ") # khi nhap tu ban phim, Python se luu du lieu nhap vao la kieu chuoi
+a = int(a) # ep kieu a ve kieu so nguyen
+b = input("Nhap vao b: ")
+b = int(b) # ep kieu b ve kieu so nguyen
+print("{0} + {1} = {2}".format(a, b, a + b))
+print("{0} - {1} = {2}".format(a, b, a - b))
+print("{0} * {1} = {2}".format(a, b, a * b))
+print("{0} / {1} = {2}".format(a, b, a / b))
+print("{0} % {1} = {2}".format(a, b, a % b))
+print("{0} // {1} = {2}".format(a, b, a // b))
+print("{0} ** {1} = {2}".format(a, b, a ** b))  
